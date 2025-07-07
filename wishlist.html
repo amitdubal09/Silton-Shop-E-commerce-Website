@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>silton-Cart</title>
+    <link rel="stylesheet" href="/css/wishlist.css">
+</head>
+
+<body>
+    <header>
+        <p id="logo">Silton Shop</p>
+        <ul id="nav-bar">
+            <div>
+                <li class="main-list">
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li class="main-list">
+                    <a href="#" class="click">Men</a>
+                    <div class="dropdown-list">
+                        <ul>
+                            <li>All</li>
+                            <li>Men's T-shirts</li>
+                            <li>Men's Casual T-shirts</li>
+                            <li>Formal Shirts</li>
+                            <li>Sweatshirts</li>
+                            <li>Sweaters</li>
+                            <li>Blazers & Coats</li>
+                            <li>Rain Jackets</li>
+                            <li>Kurtas</li>
+                            <li>Sherwani</li>
+                            <li>Jeans</li>
+                            <li>Formal Pants</li>
+                            <li>Shorts</li>
+                            <li>Sneakers</li>
+                            <li>Huddies</li>
+                            <li>Flip Flops</li>
+                            <li>Casual Trousers</li>
+                            <li>Formal Trousers</li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="main-list">
+                    <a href="#">Women</a>
+                    <div class="dropdown-list">
+                        <ul>
+                            <li>All</li>
+                            <li>Women Sarees</li>
+                            <li>Women Kurtas & Kurtis</li>
+                            <li>Women Kurtas Sets & Salwar Suits</li>
+                            <li>Ethnic Dresses</li>
+                            <li>Women Dress Materials</li>
+                            <li>Women Gowns</li>
+                            <li>Women Lehenga Cholis</li>
+                            <li>Women Leggings & Patialas</li>
+                            <li>Women Palazzos & Shararas</li>
+                            <li>Women Blouse</li>
+                            <li>T-shirts</li>
+                            <li>Women Dupatta</li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="main-list">
+                    <a href="#">GenZ</a>
+                    <div class="dropdown-list">
+                        <ul>
+                            <li>Womens Dresses under $100</li>
+                            <li>Tops under $100</li>
+                            <li>Jeans under $100</li>
+                            <li>T-shirts under $100</li>
+                            <li>Trousers under $100</li>
+                            <li>Shirts under $100</li>
+                            <li>Skirts under $100</li>
+                            <li>Jackets under $100</li>
+                            <li>Sweaters under $100</li>
+                            <li>Women's western Wear</li>
+                        </ul>
+                    </div>
+                </li>
+            </div>
+        </ul>
+
+        <div class="right-side">
+            <div id="search-box">
+                <input id="search-input" type="search" placeholder="Buy what you want...">
+            </div>
+            <img id="search-btn" src="/img/icons/Search.png" alt="">
+            <img id="profile-btn" src="/img/icons/user (1).png" alt="">
+            <img id="menu-btn" src="/img/icons/menu.png" alt="">
+        </div>
+
+        </div>
+    </header>
+    <div id="main-profile">
+        <div class="user-info">
+            <img src="/img/icons/user.png" alt="">
+        </div>
+        <span id="user-name">Amit Dubal</span>
+        <ul id="options">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/wishlist.html">Wishlist</a></li>
+            <li>Order list</li>
+            <li>Collaboration</li>
+            <li><a href="/login.html">Login</a></li>
+            <li><a href="/regi.html">Registration</a></li>
+            <li>setting</li>
+            <li>logout</li>
+        </ul>
+    </div>
+    <div id="vertical-menu" class="vertical-menu">
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li>Men</li>
+            <li>Women</li>
+            <li>GenZ</li>
+            <li>Log out</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <div class="wishlist-body">
+            <div class="wishlist-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Remove</th>
+                            <th>Add to Cart</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="product-info">
+                                    <img src="https://via.placeholder.com/60" alt="Product" />
+                                    <span>Blue T-Shirt</span>
+                                </div>
+                            </td>
+                            <td>₹499</td>
+                            <td><input type="number" value="1" min="1"></td>
+                            <td><span class="remove-btn">×</span></td>
+                            <td>
+                                <span id="addtocart">Add to Cart</span>
+                                <img class="addtocart" src="/img/icons/add-to-cart.png" alt="">
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="product-info">
+                                    <img src="https://via.placeholder.com/60" alt="Product" />
+                                    <span>Blue T-Shirt</span>
+                                </div>
+                            </td>
+                            <td>₹499</td>
+                            <td><input type="number" value="1" min="1"></td>
+                            <td><span class="remove-btn">×</span></td>
+                            <td><span id="addtocart">Add to Cart</span></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="product-info">
+                                    <img src="https://via.placeholder.com/60" alt="Product" />
+                                    <span>Blue T-Shirt</span>
+                                </div>
+                            </td>
+                            <td>₹499</td>
+                            <td><input type="number" value="1" min="1"></td>
+                            <td><span class="remove-btn">×</span></td>
+                            <td><span id="addtocart">Add to Cart</span></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="product-info">
+                                    <img src="/img/19854.jpg" alt="Product" />
+                                    <span>Blue T-Shirt</span>
+                                </div>
+                            </td>
+                            <td>₹499</td>
+                            <td><input type="number" value="1" min="1"></td>
+                            <td><span class="remove-btn">×</span></td>
+                            <td><span id="addtocart">Add to Cart</span></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="product-info">
+                                    <img src="/img/logo2.png" alt="Product" />
+                                    <span>Blue T-Shirt</span>
+                                </div>
+                            </td>
+                            <td>₹499</td>
+                            <td><input type="number" value="1" min="1"></td>
+                            <td><span class="remove-btn">×</span></td>
+                            <td><span id="addtocart">Add to Cart</span></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="product-info">
+                                    <img src="https://via.placeholder.com/60" alt="Product" />
+                                    <span>Blue T-Shirt</span>
+                                </div>
+                            </td>
+                            <td>₹499</td>
+                            <td><input type="number" value="1" min="1"></td>
+                            <td><span class="remove-btn">×</span></td>
+                            <td><span id="addtocart">Add to Cart</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+
+
+    <footer>
+        <div class="footer-cards">
+            <div>
+                <p class="mini-head">About</p>
+                <ul>
+                    <li>Contact Us</li>
+                    <li>About Us</li>
+                    <li>Corporate information</li>
+                </ul>
+            </div>
+            <div>
+                <p class="mini-head">Help</p>
+                <ul>
+                    <li>Payments</li>
+                    <li>Shipping</li>
+                    <li>Cancellation & Returns</li>
+                    <li>FAQ</li>
+                </ul>
+            </div>
+            <div>
+                <p class="mini-head">Consumer Policy</p>
+                <ul>
+                    <li>Cancellation & Returns</li>
+                    <li>Terms of Use</li>
+                    <li>Security</li>
+                    <li>Privacy</li>
+                </ul>
+            </div>
+            <div class="mail-social">
+                <div class="mail">
+                    <p class="mini-head">mail</p>
+                    <p>Silton Private Limited,Sec<br> 10E, Ghansoli, Navi Mumbai,<br>Maharashtra, 410251,
+                        India
+                    </p>
+                </div>
+                <div class="social">
+                    <p class="mini-head">social</p>
+                    <img id="insta" src="/img/icons/Insta.svg" alt="">
+                    <img src="/img/icons/facebook.svg" alt="">
+                    <img src="/img/icons/x.svg" alt="">
+                    <img src="/img/icons/utube.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="end">
+            <a href="">Become a Seller</a>
+            <a href="">Advertise</a>
+            <a href="">Help Center</a>
+            <span>@2025-2026 Silton.com</span>
+            <div class="payment-img">
+                <img src="/img/icons/pay-6.svg" alt="">
+            </div>
+        </div>
+    </footer>
+    <div class="cart-icn">
+        <a href="/cart.html">
+            <img src="/img/icons/shopping-cart.png" alt="">
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

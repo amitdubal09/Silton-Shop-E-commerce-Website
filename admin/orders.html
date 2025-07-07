@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product-Admin</title>
+    <link rel="stylesheet" href="/css/orders.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="side-bar">
+            <h2 class="logo">
+                Silton Admin
+            </h2>
+            <div class="nav">
+                <ul>
+                    <li><a href="/admin/admin.html">Dashboard</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">Orders</a></li>
+                    <li><a href="">Users</a></li>
+                    <li><a href="">Settings</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="dashboard">
+            <div class="dashboard-header">
+                <h1>
+                    Orders Overview
+                </h1>
+                <div class="combine">
+                    <img src="/img/icons/dots.png" alt="">
+                    <div class="menu">
+                        <ul>
+                            <li>Log Out</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <button id="addproduct">Add Product</button>
+            <div class="product-add">
+
+                <div class="addproduct-form" id="addproduct-form">
+                    <form action="">
+                        <input id="product-name" type="text" placeholder="Add Product Name" required><br>
+                        <input id="product-price" type="number" placeholder="Add Price" required><br>
+
+                        <input id="image" type="file" ><br>
+            
+                        <button id="save-btn">Save</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="product-table">
+                <table id="table">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Price</th>
+                            <th>Images</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-body">
+                        
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="admin.js"></script>
+</body>
+
+</html>
