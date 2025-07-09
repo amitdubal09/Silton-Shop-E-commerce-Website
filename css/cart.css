@@ -318,6 +318,20 @@ input {
     text-align: center;
 }
 
+tbody tr button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+}
+
+tbody tr button:hover {
+    border-color: steelblue;
+    border-width: 4px;
+    transition: .2s ease;
+}
+
 footer {
     background-color: rgb(40, 37, 37);
     color: aliceblue;
@@ -483,7 +497,8 @@ p {
     footer {
         width: 390px;
     }
-    .wishlist-icn{
+
+    .wishlist-icn {
         margin-bottom: 50px;
     }
 

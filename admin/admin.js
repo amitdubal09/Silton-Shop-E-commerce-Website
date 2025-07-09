@@ -33,7 +33,9 @@ savebtn.addEventListener("click", (e) => {
         row.innerHTML = `
           <td>${name}</td>
           <td>${price}</td>
-          <td><img src="${imageFile}" alt="${name} width="80" height="80""></td>
+          <td><img src="${imageFile}" alt="${name} width="80" height="80"">
+          <img src="${imageFile}" alt="${name} width="80" height="80"">
+          <img src="${imageFile}" alt="${name} width="80" height="80""></td>
           <td>
             <button class="edit-btn">Edit</button>
             <button class="delete-btn">Delete</button>

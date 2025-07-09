@@ -17,10 +17,9 @@
             <div class="nav">
                 <ul>
                     <li><a href="/admin/admin.html">Dashboard</a></li>
-                    <li><a href="">Products</a></li>
+                    <li><a href="/admin/product.html">Products</a></li>
                     <li><a href="">Orders</a></li>
-                    <li><a href="">Users</a></li>
-                    <li><a href="">Settings</a></li>
+                    
                 </ul>
             </div>
         </div>
@@ -39,33 +38,29 @@
                 </div>
             </div>
 
-            <button id="addproduct">Add Product</button>
-            <div class="product-add">
-
-                <div class="addproduct-form" id="addproduct-form">
-                    <form action="">
-                        <input id="product-name" type="text" placeholder="Add Product Name" required><br>
-                        <input id="product-price" type="number" placeholder="Add Price" required><br>
-
-                        <input id="image" type="file" ><br>
             
-                        <button id="save-btn">Save</button>
-                    </form>
-                </div>
-            </div>
 
             <div class="product-table">
                 <table id="table">
                     <thead>
                         <tr>
-                            <th>Name</th>
-                            <th>Price</th>
-                            <th>Images</th>
-                            <th>Action</th>
+                            <th>Order Id</th>
+                            <th>Customer</th>
+                            <th>Date</th>
+                            <th>Amount</th>
+                            <th>mode</th>
+                            <th>Status</th>
                         </tr>
                     </thead>
                     <tbody id="table-body">
-                        
+                        <tr>
+                            <th>#25a2</th>
+                            <th>Amit Dubal</th>
+                            <th>25-7-2025</th>
+                            <th>500</th>
+                            <th>COD</th>
+                            <th>Pending</th>
+                        </tr>
                     </tbody>
                 </table>
 

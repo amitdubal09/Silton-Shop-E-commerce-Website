@@ -7,6 +7,14 @@ const verticalmenu = document.getElementById("vertical-menu"); //the dive which 
 const searchbar = document.getElementById("search-box");
 const searchbtn = document.getElementById("search-btn");
 
+const buynow = document.getElementById("buy-now");
+
+
+//cart to order-info
+buynow.addEventListener("click", () => {
+  window.location.href = "/order-info.html";
+});
+
 // nav-list click
 menu.addEventListener("click", (e) => {
   e.stopPropagation();

@@ -246,17 +246,17 @@ header {
 }
 
 #addtocart{
-    background-color: pink;
+    border: 1px solid black;
     padding: 10px;
     font-size: 13px;
     border-radius: 10px;
     cursor: pointer;
 }
 #addtocart:hover{
-    background-color: rgb(251, 135, 222);
+    border: 2px solid steelblue;
     font-weight: bold;
-    font-size: 14px;
     color: rgb(75, 61, 68);
+    transition: .2s ease;
     box-shadow: 5px 5px 5px black;
 }
 .addtocart{
