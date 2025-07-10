@@ -10,11 +10,6 @@ const searchbtn = document.getElementById("search-btn");
 const buynow = document.getElementById("buy-now");
 
 
-//cart to order-info
-buynow.addEventListener("click", () => {
-  window.location.href = "/order-info.html";
-});
-
 // nav-list click
 menu.addEventListener("click", (e) => {
   e.stopPropagation();
@@ -55,4 +50,9 @@ searchbtn.addEventListener("click", (e) => {
   document.addEventListener("click", (e) => {
     searchbar.style.display = "none";
   })
+});
+
+//cart to order-info
+buynow.addEventListener("click", () => {
+  window.location.href = "/order-info.html";
 });

@@ -11,29 +11,126 @@
 <body>
     <header>
         <a href="/cart.html"><img id="back" src="/img/icons/arrow.png" width="25px" alt=""></a>
-        <div class="line">
-            <span style="margin-left: 500px;">1</span>
-            <div class="h-line"></div>
-            <span>2</span>
-            <div class="h-line"></div>
-            <span style="margin-right: 500px;">3</span>
-        </div>
-        <div class="line-info">
-            <p>Shipping</p>
-            <p>Payments</p>
-            <p>Order Review</p>
-        </div>
     </header>
 
-    <main>
-        <div class="main">
-            
+    <main class="main">
+        <!-- Delivery Address -->
+        <div class="sub-main">
+            <div class="delivery-address">
+                <h3>Delivery Address</h3>
+                <div class="address">
+                    <div class="row">
+                        <input type="text" placeholder="First Name">
+                        <input type="text" placeholder="Last Name">
+                    </div>
+                    <div class="row">
+                        <input type="text" placeholder="Street Address">
+                        <input type="text" placeholder="Apt/Floor (optional)">
+                    </div>
+                    <div class="row">
+                        <input type="text" placeholder="City">
+                        <select id="States">
+                            <option value="">State</option>
+                            <option>Andhra Pradesh</option>
+                            <option>Arunachal Pradesh</option>
+                            <option>Assam</option>
+                            <option>Bihar</option>
+                            <option>Chhattisgarh</option>
+                            <option>Goa</option>
+                            <option>Gujarat</option>
+                            <option>Haryana</option>
+                            <option>Himachal Pradesh</option>
+                            <option>Jharkhand</option>
+                            <option>Karnataka</option>
+                            <option>Kerala</option>
+                            <option>Madhya Pradesh</option>
+                            <option>Maharashtra</option>
+                            <option>Manipur</option>
+                            <option>Meghalaya</option>
+                            <option>Mizoram</option>
+                            <option>Nagaland</option>
+                            <option>Odisha</option>
+                            <option>Punjab</option>
+                            <option>Rajasthan</option>
+                            <option>Sikkim</option>
+                            <option>Tamil Nadu</option>
+                            <option>Telangana</option>
+                            <option>Tripura</option>
+                            <option>Uttar Pradesh</option>
+                            <option>Uttarakhand</option>
+                            <option>West Bengal</option>
+                        </select>
+                        <input type="text" placeholder="Zip code">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <h3>Contact Info</h3>
+                <div class="info">
+                    <input type="email" placeholder="Email for Order Tracking" required>
+                    <input type="tel" maxlength="10" pattern="[0-9]{10}" placeholder="Phone for Delivery Contact"
+                        required>
+                </div>
+                <div class="privacy">
+                    <img src="/img/icons/lock.png" width="15px" alt="lock icon">
+                    <p>Your privacy is important to us. View our privacy policy here. We'll only contact you if there's
+                        an
+                        issue with your order. <b>We'll also look for coupons associated with your email and phone
+                            number.</b></p>
+                </div>
+            </div>
         </div>
+
+        <!-- Order Summary -->
+        <div class="order-summary">
+            <h3>Order Summary</h3>
+            <div class="summary-details">
+                <p><span id="noofitems">2</span> Item(s) in Cart</p>
+                <div class="order-list">
+                    <div>
+                        <p>Order Subtotal</p>
+                        <p>Net Order Subtotal</p>
+                        <p>Shipping Charge</p>
+                        <p>Pre-Tax Total</p>
+                    </div>
+                    <div>
+                        <p>₹34</p>
+                        <p>₹34</p>
+                        <p>₹5</p>
+                        <p>₹19</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Order preview -->
+        <div class="order-preview-box">
+            <h4>Your Items</h4>
+            <div class="product-item">
+                <img src="/img/19854.jpg" alt="Product Image">
+                <div class="details">
+                    <p class="product-name">Classic T-Shirt</p>
+                    <p>Qty: <input type="number" value="1" min="1"></p>
+                </div>
+                <p class="price">₹399</p>
+            </div>
+
+            <div class="product-item">
+                <img src="/img/home-img.png" alt="Product Image">
+                <div class="details">
+                    <p class="product-name">Jeans</p>
+                    <p>Qty: <input type="number" value="1" min="1"></p>
+                </div>
+                <p class="price">₹799</p>
+            </div>
+        </div>
+
     </main>
 
     <footer>
         <div class="footer">
-            <button>Cancel</button>
+            <button><a href="/cart.html">Cancel</a></button>
             <button>Next</button>
         </div>
     </footer>

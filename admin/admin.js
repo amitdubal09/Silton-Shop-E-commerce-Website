@@ -1,6 +1,11 @@
 let addproductbtn = document.getElementById("addproduct");
 let addproductform = document.getElementById("addproduct-form");
 let savebtn = document.getElementById("save-btn");
+let table = document.getElementById("table-body");
+let nameinput = document.getElementById("product-name");
+let priceinput = document.getElementById("product-price");
+let imageinput = document.getElementById("image");
+
 
 // add product btn
 addproductbtn.addEventListener("click", (e) => {
@@ -10,10 +15,6 @@ addproductbtn.addEventListener("click", (e) => {
 
 
 // product-table
-let table = document.getElementById("table-body");
-let nameinput = document.getElementById("product-name");
-let priceinput = document.getElementById("product-price");
-let imageinput = document.getElementById("image");
 
 savebtn.addEventListener("click", (e) => {
     e.stopPropagation();
