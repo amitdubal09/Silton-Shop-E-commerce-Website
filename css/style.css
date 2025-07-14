@@ -1,5 +1,5 @@
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0.31);
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -70,7 +70,7 @@ header {
     padding: 0px 0px 10px 10px;
     margin-top: 22px;
     color: rgb(0, 0, 0);
-    background-color: rgba(198, 194, 194, 0.25);
+    background-color: rgb(198, 194, 194);
     border-radius: 15px;
 }
 
@@ -254,7 +254,8 @@ header {
     outline: none;
     border-radius: 15px;
 }
-#btn a{
+
+#btn a {
     text-decoration: none;
     color: rgb(214, 214, 214);
 }
@@ -267,7 +268,7 @@ header {
 #body-img {
     float: right;
     width: 40%;
-    margin-top: 20px;
+    margin-top: 40px;
     filter: drop-shadow(5px 30px 15px rgb(0, 0, 0));
 }
 
@@ -345,10 +346,10 @@ header {
 .slide {
     display: flex;
     width: 190px;
-    height: 240px;
+    height: 250px;
 }
 
-.slide img {
+.product-info img {
     width: 160px;
     height: 180px;
     object-fit: cover;

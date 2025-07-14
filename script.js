@@ -7,8 +7,7 @@ const verticalmenu = document.getElementById("vertical-menu"); //the dive which 
 const searchbar = document.getElementById("search-box");
 const searchbtn = document.getElementById("search-btn");
 
-const buynow = document.getElementById("buy-now");
-
+const wishlistimg = document.getElementById("cng-wishlist-img");
 
 // nav-list click
 menu.addEventListener("click", (e) => {
@@ -52,7 +51,8 @@ searchbtn.addEventListener("click", (e) => {
   })
 });
 
-//cart to order-info
-buynow.addEventListener("click", () => {
-  window.location.href = "/order-info.html";
+//add product to wishlist from order preview
+wishlistimg.addEventListener("click",() => {
+  console.log("image clicked");
+  wishlistimg.src = "/img/icons/after-click-wishlist.png";
 });

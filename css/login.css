@@ -1,5 +1,5 @@
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -227,7 +227,7 @@ header {
 
 .container {
     width: 500px;
-    height: 320px;
+    height: 350px;
     background: rgba(255, 255, 255, 0.632);
     border-radius: 10px;
     overflow: hidden;

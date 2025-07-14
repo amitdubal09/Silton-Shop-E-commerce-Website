@@ -5,6 +5,7 @@ let table = document.getElementById("table-body");
 let nameinput = document.getElementById("product-name");
 let priceinput = document.getElementById("product-price");
 let imageinput = document.getElementById("image");
+let descriptioninput = document.getElementById("product-description");
 
 
 // add product btn
@@ -25,6 +26,7 @@ savebtn.addEventListener("click", (e) => {
     let name = nameinput.value;
     let price = priceinput.value;
     let imageFile = imageinput.files[0];
+    let description = descriptioninput.value;
 
     let reader = new FileReader();
     reader.onload = function () {
@@ -34,6 +36,7 @@ savebtn.addEventListener("click", (e) => {
         row.innerHTML = `
           <td>${name}</td>
           <td>${price}</td>
+          <td>${description}</td>
           <td><img src="${imageFile}" alt="${name} width="80" height="80"">
           <img src="${imageFile}" alt="${name} width="80" height="80"">
           <img src="${imageFile}" alt="${name} width="80" height="80""></td>
@@ -62,6 +65,7 @@ savebtn.addEventListener("click", (e) => {
 
         nameinput.value = '';
         priceinput.value = '';
+        descriptioninput.value = '';
         imageinput.value = '';
 
     };
